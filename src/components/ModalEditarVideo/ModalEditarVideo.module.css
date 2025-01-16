@@ -1,0 +1,74 @@
+/* Estilos gerais do modal */
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  max-width: 1000px;
+  background-color: #000; /* Fundo preto */
+  color: #fff; /* Texto branco */
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+  padding: 20px;
+}
+
+/* Título do modal */
+.modal h1 {
+  color: #007bff; /* Azul */
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Campo de entrada */
+.modal input,
+.modal select,
+.modal textarea {
+  width: 100%;
+  height: 40px;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 2px solid #007bff; /* Bordas azuis */
+  border-radius: 4px;
+  background-color: #1a1a1a; /* Fundo escuro */
+  color: #fff; /* Texto branco */
+  font-size: 16px;
+}
+
+/* Efeito ao focar no campo */
+.modal input:focus,
+.modal select:focus,
+.modal textarea:focus {
+  outline: none;
+  border-color: #0056b3; /* Azul mais escuro */
+}
+
+/* Botões no modal */
+.modal button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff; /* Azul */
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.modal button:hover {
+  background-color: #0056b3; /* Azul mais escuro */
+}
+
+/* Fundo de sobreposição */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 999;
+}

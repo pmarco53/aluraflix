@@ -1,0 +1,94 @@
+/* Contêiner principal */
+.videoDestaque {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 20px;
+  width: 100%;
+  height: 600px;
+  color: #fff;
+  overflow: hidden;
+  background-size: cover; /* Faz a imagem cobrir todo o fundo */
+  background-position: center; /* Centraliza a imagem */
+  background-repeat: no-repeat; /* Evita repetição */
+}
+
+/* Pseudo-elemento para o fundo com opacidade */
+.videoDestaque::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: inherit;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; /* Evita repetição */
+  opacity: 0.3;
+  z-index: 0;
+}
+
+/* Conteúdo sobreposto */
+.videoDestaque > * {
+  position: relative;
+  z-index: 1; /* Coloca o conteúdo acima do fundo */
+}
+
+/* Bloco de informações */
+.infoBloco {
+  color: white; /* Texto branco */
+  padding-right: 20px; /* Espaço à direita */
+  width: 50%;
+  z-index: 1;
+}
+
+/* Categoria destacada */
+.categoriaDestaque {
+  background-color: #ffba05; /* Azul claro */
+  color: white; /* Texto branco */
+  padding: 5px 10px; /* Espaçamento interno */
+  border-radius: 5px; /* Borda arredondada */
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  display: inline-block;
+  width: 296px;
+  height: 92px;
+  text-align: center;
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center;
+  font-size: 48px;
+  font-weight: 800;
+}
+
+/* Título */
+.infoBloco h1 {
+  font-size: 2rem; /* Tamanho do título */
+  margin: 10px 0; /* Espaço entre elementos */
+}
+
+/* Descrição */
+.infoBloco p {
+  font-size: 1.2rem; /* Tamanho da descrição */
+  line-height: 1.5; /* Espaçamento entre linhas */
+}
+
+/* Bloco de thumbnail */
+.thumbnail img {
+  width: 646px; /* Largura fixa */
+  height: 333px;
+  height: auto; /* Altura proporcional */
+  border-radius: 10px; /* Borda arredondada */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Sombra para destaque */
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Efeitos ao hover */
+  z-index: 1;
+}
+
+.thumbnail img:hover {
+  transform: scale(1.05); /* Aumenta ligeiramente no hover */
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.7); /* Sombra maior no hover */
+}

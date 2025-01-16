@@ -1,0 +1,14 @@
+.texto {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 30px;
+}
+
+.caixa {
+  border-radius: 20px;
+  border: 1px solid blue;
+  height: 62px;
+  width: 573px;
+  margin-top: 10px;
+}

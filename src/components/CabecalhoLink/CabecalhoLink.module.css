@@ -1,0 +1,23 @@
+.novo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+  height: 75px;
+  border-radius: 20px;
+  border: solid 2px #2271d1;
+  width: 180px;
+  color: #2271d1;
+}
+
+.original {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+  height: 75px;
+  border-radius: 20px;
+  border: solid 2px #ffffff;
+  width: 180px;
+  color: white;
+}

@@ -1,0 +1,52 @@
+{
+  "videos": [
+    {
+      "id": "2",
+      "titulo": "Engenharia de Software",
+      "imagem": "80.00",
+      "categoria": "Mobile",
+      "link": "https://youtu.be/A1MY2D7zemM?si=W-bi09mrdeE4RsMo",
+      "descricao": "Qual é o tipo de arquitetura de software mais comum nas empresas? Quando é interessante adotar Clen Architecture? Quando usar Domain-Driven Design?"
+    },
+    {
+      "id": "3",
+      "titulo": "PROMISES x OBSERVABLES ?",
+      "imagem": "80.00",
+      "categoria": "Mobile",
+      "link": "https://youtu.be/kUvylQHPFTg?si=ULuVgdWqHTHlOPuP",
+      "descricao": "Entenda, de uma vez por todas, qual é a diferença entre PROMISES e OBSERVABLES Inscreva-se na Newsletter com conteúdos de Imersão, aprendizagem e Tecnologia da Alura, com emails do nosso CEO: https://www.alura.com.br/imersao"
+    },
+    {
+      "id": "5",
+      "titulo": "NOVOS VAZAMENTOS",
+      "imagem": "80.00",
+      "categoria": "Mobile",
+      "link": "https://youtu.be/h8jrZ_qFhwA?si=tnSa9LQZWcbgjU_d",
+      "descricao": "Novo update, novos bugs"
+    },
+    {
+      "id": "56f4",
+      "titulo": "QUANTO REALMENTE CUSTA SAÚDE NOS EUA?",
+      "imagem": "cccc",
+      "categoria": "Mobile",
+      "link": "https://youtu.be/hbHGDurZFCA?si=Pku3aJOn5Z8t_ALE",
+      "descricao": "Sonha em morar nos EUA? Quer dicas pra transformar esse sonho em realidade?"
+    },
+    {
+      "id": "ae61",
+      "titulo": "cascasd",
+      "imagem": "dssdasd",
+      "categoria": "Front End",
+      "link": "https://youtu.be/m5nSblIMcB8?si=hdUYs4VcWzL0aqT4",
+      "descricao": "sdsds"
+    },
+    {
+      "id": "0a16",
+      "titulo": "eqqeq",
+      "imagem": "esss",
+      "categoria": "Back End",
+      "link": "https://youtu.be/wetWNd6toVo?si=vxTLnntE9uNy0y0B",
+      "descricao": "adasdasd"
+    }
+  ]
+}
